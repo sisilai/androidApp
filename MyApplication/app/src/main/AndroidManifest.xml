@@ -7,9 +7,38 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <!--<activity-->
+            <!--android:name=".buttonClick"-->
+            <!--android:label="@string/app_name" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity android:name=".MainActivity"-->
+            <!--android:label="@string/hello_world">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="hello_world" />-->
+                <!--&lt;!&ndash;<category android:name="hello" />&ndash;&gt;-->
+                <!--<category android:name="android.intent.category.DEFAULT"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity-->
+            <!--android:name=".progressBarDemo"-->
+            <!--android:label="@string/bar_plus"-->
+            <!--android:theme="@style/Theme.AppCompat.Dialog">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".mainFragment"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
